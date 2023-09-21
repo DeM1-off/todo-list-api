@@ -43,6 +43,22 @@ Now you are done.
           'description' => ['required','string'],
 
 
+
+## Validate filter GET
+
+          'status' => 'boolean',
+          'min_priority' => 'integer',
+          'max_priority' => 'integer',
+          'title' => 'string',
+          'sort_desc' => 'integer',
+
+## Validate register 
+
+          'name' => 'required|string|max:255',
+          'email' => 'required|string|email|max:255|unique:users',
+          'password' => 'required|string|min:6',
+
+          
 ## Routing 
 CRUD 
 'api/task/
