@@ -5,6 +5,7 @@
 -  CRUD task 
 -  middleware
 -  enum
+-  policies
 
 ## Using Files
 
